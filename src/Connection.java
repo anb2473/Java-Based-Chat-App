@@ -9,7 +9,7 @@ public class Connection {
     private final Display display = new Display("Chat App", 1000, 800, "/icon.png");
     private Display newChatPage = null;
 
-    private final Client client = new Client(5050);
+    private final Client client = new Client("localhost", 5050);    // <-------------------------------------------------
 
     private String connectionStage = "Connect";
     
