@@ -1,3 +1,5 @@
+This project is no longer being maintained.
+
 # Chat Application
 
 This is a java based chat application. To run it simply do the following:
